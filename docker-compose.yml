@@ -1,0 +1,5 @@
+services:
+  jupyter:
+    build: .
+    ports:
+      - "8889:8889"
